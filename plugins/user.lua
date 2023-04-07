@@ -9,4 +9,13 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  { "ggandor/leap.nvim",      event = "User AstroFile" },
+  { "mg979/vim-visual-multi", lazy = false },
+  {
+    "m4xshen/smartcolumn.nvim",
+    event = { "InsertEnter", "User AstroFile" },
+    opts = {
+      colorcolumn = { 80, 120 },
+    },
+  },
 }
