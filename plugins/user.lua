@@ -9,8 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { "ggandor/leap.nvim",      event = "User AstroFile" },
-  { "mg979/vim-visual-multi", lazy = false },
+  -- { "mg979/vim-visual-multi", lazy = false },
+  -- { "booperlv/nvim-gomove", lazy = false },
   {
     "m4xshen/smartcolumn.nvim",
     event = { "InsertEnter", "User AstroFile" },
